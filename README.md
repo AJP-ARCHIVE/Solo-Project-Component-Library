@@ -300,8 +300,8 @@ function App() {
 | toast_icon_alt  | any user-provided string   | default toast icon alt  |  accessibility alt text |
 | title  | any user-provided string  | n/a  |  main heading text |
 | text  |  any user-provided string |  n/a |  body text |
-| show_delay_ms  |  any positive number (ms) |  2000 ms (2 seconds) | Delay before the popup appears  |
-|  hide_delay_ms | any positive number (ms)  | 4000 ms (4 seconds)   | Delay before the popup disappears  |
+| show_delay_ms  |  any positive number (ms) |  2000 ms (2 seconds) | delay before the popup appears  |
+|  hide_delay_ms | any positive number (ms)  | 4000 ms (4 seconds)   | delay before the popup disappears  |
 
 ### Usage/Examples -  Toasts
 
