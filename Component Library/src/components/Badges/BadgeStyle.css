@@ -1,0 +1,81 @@
+/* Badge Component Styling */
+body {
+  margin: 0;
+}
+
+#root {
+  width: 1126px;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+/* Default - no conditional styling */
+.badge {
+    padding: 0.125em 0.75em;
+    text-align: 'center';
+    max-width: max-content;
+    max-height: max-content;
+    width: fit-content; 
+    height: auto;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.badge:hover {
+  cursor: pointer;
+}
+
+/* Badge Conditional Styling  */
+.badge-gray {
+  background-color: #F3F4F6;
+  color: #1F2937;
+}
+
+.badge-red {
+  background-color: #FEE2E2;
+  color: #991B1B;
+}
+
+.badge-yellow {
+  background-color: #FEF3C7;
+  color: #92400E;
+}
+
+.badge-green {
+  background-color: #D1FAE5;
+  color: #065F46;
+}
+
+.badge-blue {
+  background: #DBEAFE;
+  color: #1E40AF;
+}
+
+.badge-indigo {
+  background-color: #E0E7FF;
+  color: #3730A3;
+}
+
+.badge-purple {
+  background-color: #EDE9FE;
+  color: #5B21B6;
+}
+
+.badge-pink {
+  background-color: #FCE7F3;
+  color: #9D174D;
+}
+
+.badge-shape-square {
+  border-radius: 0.25em;
+}
+
+.badge-shape-pill {
+  border-radius: 0.75em;
+}
+

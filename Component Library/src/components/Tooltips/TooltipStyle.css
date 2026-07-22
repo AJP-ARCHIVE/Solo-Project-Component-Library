@@ -1,0 +1,223 @@
+/* Tooltip Component Styling */
+#root {
+  width: 1126px;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-align: left;
+}
+
+.hovered-content {
+   margin: 0;
+   cursor: pointer;
+   text-align: left;
+   font-size: 1em;
+   display: inline-block;
+}
+
+.tooltip-content {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1; 
+  max-width: 384px;
+  width: 300px;
+  max-height: 112px; 
+  height: auto;
+  /* left: 50%; */
+  left: 0;
+  bottom: 100%;  
+  /* transform: translateX(-50%);  */
+  display: flex;
+  align-items: flex-start; 
+  gap: 1em;
+  padding: 1em;
+  border-radius: 0.5em;
+  margin-bottom: 0.5em;
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* Make pointy arrow */
+.tooltip-content::after {
+  content: '';
+  position: absolute;
+  bottom: -12px; /* Pushes triangle below the bubble */
+  left: 30px;    /* Positions it near the left side, but not in the corner */
+  border-width: 15px 12px 0 12px;
+  border-style: solid;
+}
+
+.tooltip-container:hover .tooltip-content {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip-title-text-container {
+  width: 100%;
+  font-size: 0.875em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  gap: 0.5em;
+}
+
+.tooltip-title {
+    font-weight: 500;
+    margin: 0;
+}
+
+.test {
+    color: red;
+}
+
+.tooltip-icon {
+    max-width: 24px;
+    max-height: 24px;
+}
+
+/* Conditional Styling */
+.tooltip-light-achromatic {
+    background-color: #FFFFFF;
+}
+
+.tooltip-light-achromatic::after {
+    border-color: #FFFFFF transparent transparent transparent;
+}
+
+.tooltip-light-blue {
+    background-color: #E0E7FF;
+}
+
+.tooltip-light-blue::after {
+    border-color: #E0E7FF transparent transparent transparent;
+}
+
+.tooltip-light-purple  {
+    background-color: #FFF3FC;
+}
+
+.tooltip-light-purple::after  {
+    border-color: #FFF3FC transparent transparent transparent;
+}
+
+.tooltip-light-green {
+    background-color: #E7FFF3;
+}
+
+.tooltip-light-green::after {
+    border-color: #E7FFF3 transparent transparent transparent;
+}
+
+.tooltip-bold-achromatic {
+    background-color: #262626;
+}
+
+.tooltip-bold-achromatic::after {
+    border-color: #262626 transparent transparent transparent;
+}
+
+.tooltip-bold-blue {
+    background-color: #1E40AF;
+}
+
+.tooltip-bold-blue::after {
+     border-color: #1E40AF transparent transparent transparent;
+}
+
+.tooltip-bold-purple {
+    background-color: #A9229B;
+}
+
+.tooltip-bold-purple::after {
+    border-color: #A9229B transparent transparent transparent;
+}
+
+.tooltip-bold-green {
+    background-color: #47AA5D;
+}
+
+.tooltip-bold-green::after {
+    border-color: #47AA5D transparent transparent transparent;
+}
+
+.tooltip-title-light-achromatic {
+    color: #111827;
+}
+
+.tooltip-title-light-blue {
+    color: #1E40AF;
+}
+
+.tooltip-title-light-purple {
+    color: #A9229B;
+}
+
+.tooltip-title-light-green {
+    color: #137A2A;
+}
+
+
+.tooltip-title-bold {
+    color: #FFFFFF;
+}
+
+.tooltip-text-light-achromatic, .tooltip-icon-light-achromatic {
+    color: #6B7280;
+}
+
+.tooltip-text-light-blue, .tooltip-icon-light-blue {
+    color: #1C51B9;
+}
+
+.tooltip-text-light-purple, .tooltip-icon-light-purple  {
+    color: #C7369E;
+}
+
+.tooltip-text-light-green {
+    color: #3C8C4E;
+}
+
+.tooltip-icon-light-green {
+    color: #41A557;
+}
+
+.tooltip-text-bold-achromatic, .tooltip-icon-bold-achromatic {
+    color: #C7C7C7;
+}
+
+.tooltip-text-bold-blue {
+    color: #E8EDFF;
+}
+
+.tooltip-icon-bold-blue {
+    color: #7EA6F2;
+}
+
+
+.tooltip-text-bold-purple {
+    color: #FFE9FD;
+}
+
+.tooltip-icon-bold-purple {
+    color: #F462E6;
+}
+
+.tooltip-text-bold-green {
+    color: #E3FFE9;
+}
+
+.tooltip-icon-bold-green {
+    color: #C1FFCF;
+}
+

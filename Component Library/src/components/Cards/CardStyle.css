@@ -1,0 +1,78 @@
+/* Card Component Styling */
+body {
+  margin: 0;
+}
+
+#root {
+  width: 1126px;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 384px;
+    min-height: 208px;
+    height: auto;
+    background-color: #F9FAFB;
+    padding: 0 1.5em 2em 1.5em;
+    border-radius: 0.5em;
+}
+
+
+.card-icon-container {
+    border-radius: 6px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    margin-top: -1.25em;
+}
+
+
+.card {
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 336px;
+    min-height: 176px; 
+    height: auto;
+    gap: 2em;
+}
+
+
+.card-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.card-title {
+    color: #111827;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.card-text {
+    color: #6B7280;
+    font-size: 0.875rem;
+    margin-top: -50px;
+}
+
+.card-container:hover {
+    box-shadow: 0 4px 25px 0 #000;
+    cursor: pointer;
+}

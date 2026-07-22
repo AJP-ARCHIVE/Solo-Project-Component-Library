@@ -1,0 +1,94 @@
+/* Banner Component Styling */
+body {
+  margin: 0;
+}
+
+#root {
+  width: 1126px;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+/* Default - no conditional styling */
+.banner {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.875em;
+    width: 896px;
+    border-radius: 0.375em;
+    padding: 1em;
+}
+
+.banner:hover {
+    cursor: pointer;
+}
+
+
+.banner-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.banner-text-title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625em;
+    text-align: left;
+    width: 832px;
+    font-size: 0.875rem;
+    margin-top: -0.125em;
+}
+
+.banner-title {
+    font-weight: 500;
+}
+
+/*Banner Conditional Styling */
+.banner-success {
+    background-color: #ECFDF5;
+}
+
+.banner-title-success {
+    color: #065F46;
+}
+
+.banner-text-success {
+    color: #047857;
+}
+
+
+.banner-warning {
+    background-color: #FFFBEB;
+}
+
+.banner-title-warning, .banner-title-danger {
+    color: #92400E;
+}
+
+.banner-text-warning, .banner-text-danger {
+    color: #B45309;
+}
+
+.banner-danger {
+    background-color: #FEF2F2;
+}
+
+.banner-neutral {
+    background-color: #EFF6FF;
+}
+
+.banner-title-neutral {
+    color: #1E40AF;
+}
+
+.banner-text-neutral {
+    color: #1C51B9;
+}
+
+p {
+    margin: 0;
+}
