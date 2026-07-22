@@ -305,7 +305,7 @@ function App() {
   )
 }
 ```
-<img src="src\assets\examples\toasts_example.gif" alt="Toasts component example" width="500">
+<img src="src\assets\examples\toasts_example.gif" alt="Toasts component example" width="500" style="border: 3px solid #000; border-radius: 8px;">
 
 ## License
 
