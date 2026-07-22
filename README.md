@@ -249,7 +249,7 @@ function App() {
 | Prop Name  | Value  |  Default | Behavior  |
 |---|---|---|---|
 |  variant | achromatic, blue, purple, green  | achromatic   | controls the component’s visual style  |
-| mode   | light, bold  | light  |  Determines color theme |
+| mode   | light, bold  | light  |  determines color theme |
 |  svgElement | svg Element | default svg | custom SVGs can inherit color via currentColor  |
 |  title  | any user-provided string  | n/a   | main heading text |
 |  text  | any user-provided string  |  n/a  |  body text |
@@ -295,6 +295,7 @@ function App() {
 ### Props
 | Prop Name  | Values   |  Default  | Behavior  |
 |---|---|---|---|
+| status  | success, warning, error, information  |  information | Affects styling  |
 | toast_icon  | any valid image source (.svg, .png, .jpg, etc.)  |  default svg icon | decorator icon  |
 | toast_icon_alt  | any user-provided string   | default toast icon alt  |  accessibility alt text |
 | title  | any user-provided string  | n/a  |  main heading text |
