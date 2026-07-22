@@ -306,9 +306,15 @@ function App() {
 }
 ```
 
-<div style="border: 3px solid #000; border-radius: 8px; display: inline-block; padding: 4px;">
-  <img src="Component%20Library/src/assets/examples/toasts_example.gif" alt="Toasts component example" width="500" />
-</div>
+
+<table>
+  <tr>
+    <td style="border: 3px solid #000; border-radius: 8px; padding: 4px;">
+      <img src="Component%20Library/src/assets/examples/toasts_example.gif" alt="Toasts component example" width="500" />
+    </td>
+  </tr>
+</table>
+
 
 
 ## License
