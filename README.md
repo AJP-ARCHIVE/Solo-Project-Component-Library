@@ -164,6 +164,14 @@ function App() {
 ```
 <img src="Component%20Library/src/assets/examples/cards_example.PNG" alt="Cards component example" width="500"/>
 
+<table>
+  <tr>
+    <td style="border: 3px solid #000; border-radius: 8px; padding: 4px;">
+      <img src="Component%20Library/src/assets/examples/cards_example.gif" alt="Cards component example" width="500"/>
+    </td>
+  </tr>
+</table>
+
 ## 4. Testimonials Component
 
 **Includes two render variants and one helper component (TestimonialQuote) that decides which version to display.**

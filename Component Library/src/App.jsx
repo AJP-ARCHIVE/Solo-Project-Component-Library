@@ -56,8 +56,8 @@ function App() {
     <Banner status="neutral" title="Update available" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam." /> */}
 
     {/* Card  */}
-    {/* <Card icon_backgroundColor='#2589bd' title='Easy Deployment' text='Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' />
-    <Card title='Easy Deployment' text='Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' /> */}
+    <Card icon_backgroundColor='#2589bd' title='Easy Deployment' text='Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' />
+    <Card title='Easy Deployment' text='Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' />
 
     {/* Testimonial with image - desktop version */}
     {/* <TestimonialWithImage quote='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit.' author='May Andersons' role='Workcation, CTO' viewport='desktop' /> */}
@@ -71,7 +71,7 @@ function App() {
 
     {/* Toast component - Single popup bottom right corner of screen */}
     {/* Test one at a time */}
-    
+
     {/* <Toast status="success" title="Success" text="Your work has been saved" />
     <Toast status="warning" text="A network error was detected" />
     <Toast status="error" text="Please re-save your work again" /> */}
