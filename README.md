@@ -162,7 +162,7 @@ function App() {
   )
 }
 ```
-<img src="Component%20Library/src/assets/examples/cards_example.PNG" alt="Cards component example" width="500"/>
+
 
 <table>
   <tr>
