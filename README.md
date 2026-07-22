@@ -270,7 +270,14 @@ function App() {
   )
 }
 ```
-<img src="Component%20Library/src/assets/examples/tooltips_example.gif" alt="Tooltip component example" width="500" />
+
+<table>
+  <tr>
+    <td style="border: 3px solid #000; border-radius: 8px; padding: 4px;">
+      <img src="Component%20Library/src/assets/examples/tooltips_example.gif" alt="Tooltip component example" width="500" />
+    </td>
+  </tr>
+</table>
 
 ## 6. Toasts Component
 
