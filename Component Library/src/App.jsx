@@ -75,7 +75,8 @@ function App() {
     {/* <Toast status="success" title="Success" text="Your work has been saved" />
     <Toast status="warning" text="A network error was detected" />
     <Toast status="error" text="Please re-save your work again" /> */}
-    <Toast status="information" title="Information" text="Please read updated information" show_delay_ms={3000} hide_delay_ms={6000}  />
+
+    {/* <Toast status="information" title="Information" text="Please read updated information" show_delay_ms={3000} hide_delay_ms={6000}  /> */}
 
 
     {/* Tooltip */}

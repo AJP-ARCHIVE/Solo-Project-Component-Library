@@ -14,14 +14,23 @@ export default function TestimonialQuote({ hasImage, testimonialMedia, testimoni
     const testimonialDecorator = !hasImage && testimonialViewport === 'desktop' ? DotPatternDesktop : !hasImage && testimonialViewport === 'mobile' ? DotPatternMobile : QuoteIcon
 
     return (
-          <figure className={`testimonial-content-container ${testimonialViewport}`}>
+          <figure className={`testimonial-content-container ${testimonialViewport} ${testimonialClass}`}>
+                             
             {quote && (
                 <div className={`quote-container ${testimonialClass} ${testimonialViewport}`}>
-                    {/* Decorative quote image */}
+                 {/* Decorative quote image */}
+                    <div className={`icon-wrapper  ${testimonialClass} ${testimonialViewport}`}>
                     <img src={testimonialDecorator} aria-hidden="true" className={`testimonial-icon ${testimonialClass} ${testimonialViewport}`} alt="testimonial decorator image" /> 
-
-                    {testimonialMedia && <img src={testimonialMedia} className={`logo-image ${testimonialClass} ${testimonialViewport}`} alt={testimonialImageAlt} />}
-                    <blockquote className={`quote ${testimonialViewport}`}>"{quote}"</blockquote>
+                    </div>
+                
+                    <div className={`testing ${testimonialViewport} ${testimonialClass}`}>
+                    {testimonialMedia && 
+                    <img src={testimonialMedia} className={`logo-image ${testimonialClass} ${testimonialViewport}`} alt={testimonialImageAlt} />}
+                 
+                    <blockquote className={`quote ${testimonialViewport}`}>{testimonialClass === 'without-image' ? `"${quote}"` : quote}</blockquote>
+                
+                   
+                
         
                     {name || role && (
                     <figcaption className={`quote-attributes-container ${testimonialViewport}`}>
@@ -34,6 +43,7 @@ export default function TestimonialQuote({ hasImage, testimonialMedia, testimoni
                         </div>
                     </figcaption>
             )}
+                </div>
                 </div>
             )
             }
