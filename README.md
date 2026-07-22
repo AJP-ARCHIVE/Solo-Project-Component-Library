@@ -295,7 +295,7 @@ function App() {
 ### Props
 | Prop Name  | Values   |  Default  | Behavior  |
 |---|---|---|---|
-| status  | success, warning, error, information  |  information | Affects styling  |
+| status  | success, warning, error, information  |  information | affects styling  |
 | toast_icon  | any valid image source (.svg, .png, .jpg, etc.)  |  default svg icon | decorator icon  |
 | toast_icon_alt  | any user-provided string   | default toast icon alt  |  accessibility alt text |
 | title  | any user-provided string  | n/a  |  main heading text |
