@@ -174,7 +174,6 @@ function App() {
 
 - Helper component (TestimonialQuote) → receives preconfigured props and conditionally renders one of two versions (with image or without image) based on computed or passed-in prop values from the specific component version being utilized.
 
-![App Screenshot](https://different-marmoset-f7b.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F14ff3251-fb19-43cb-bcbc-7a88c4c252b5%2FUntitled.png?table=block&id=2f936582-783f-4ea0-8dcf-3c9fb76ab0bc&spaceId=a10d5439-ecf5-4fcd-9ead-c11a466086e4&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl)
 
 <img src="Component%20Library/src/assets/examples/testimonials_design.PNG" alt="Testimonials component design" width="500"/>
 
