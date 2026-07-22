@@ -90,7 +90,7 @@ function App() {
   )
 }
 ```
-<img src="src\assets\examples\badges_example.PNG" alt="Badges component example" width="500">
+<img src="../Solo Project Component Library/Component Library/src/assets/examples/badges_example.PNG" alt="Badges component example" width="500">
 
 ## 2. Banners Component
 
@@ -129,7 +129,7 @@ function App() {
   )
 }
 ```
-<img src="src\assets\examples\banners_example.PNG" alt="Banners component example" width="500">
+<img src="../Solo Project Component Library/Component Library/src/assets/examples/banners_example.PNG" alt="Banners component example" width="500">
 
 ## 3. Cards Component
 
@@ -162,7 +162,7 @@ function App() {
   )
 }
 ```
-<img src="src\assets\examples\cards_example.PNG" alt="Cards component example" width="500">
+<img src="../Solo Project Component Library/Component Library/src/assets/examples/cards_example.PNG" alt="Cards component example" width="500">
 
 ## 4. Testimonials Component
 
@@ -176,7 +176,7 @@ function App() {
 
 ![App Screenshot](https://different-marmoset-f7b.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F14ff3251-fb19-43cb-bcbc-7a88c4c252b5%2FUntitled.png?table=block&id=2f936582-783f-4ea0-8dcf-3c9fb76ab0bc&spaceId=a10d5439-ecf5-4fcd-9ead-c11a466086e4&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl)
 
-<img src="src\assets\examples\testimonials_design.PNG" alt="Testimonials component design" width="500">
+<img src="../Solo Project Component Library/Component Library/src/assets/examples/testimonials_design.PNG" alt="Testimonials component design" width="500">
 
 
 ### Props - (Image Testimonial) TestimonialWithImage Component
@@ -224,9 +224,9 @@ function App() {
   )
 }
 ```
-<img src="src\assets\examples\testimonialsImage_example.PNG" alt="Testimonials with image component example" width="500">
+<img src="../Solo Project Component Library/Component Library/src/assets/examples/testimonialsImage_example.PNG" alt="Testimonials with image component example" width="500">
 
-<img src="src\assets\examples\testimonialsNoImage_example.PNG" alt="Testimonials with no image component example" width="500">
+<img src="../Solo Project Component Library/Component Library/src/assets/examples/testimonialsNoImage_example.PNG" alt="Testimonials with no image component example" width="500">
 
 
 
@@ -271,7 +271,7 @@ function App() {
   )
 }
 ```
-<img src="src\assets\examples\tooltips_example.gif" alt="Tooltip component example" width="500">
+<img src="../Solo Project Component Library/Component Library/src/assets/examples/tooltips_example.gif" alt="Tooltip component example" width="500">
 
 ## 6. Toasts Component
 
@@ -305,7 +305,7 @@ function App() {
   )
 }
 ```
-<img src="src\assets\examples\toasts_example.gif" alt="Toasts component example" width="500" style="border: 3px solid #000; border-radius: 8px;">
+<img src="../Solo Project Component Library/Component Library/src/assets/examples/toasts_example.gif" alt="Toasts component example" width="500" style="border: 3px solid #000; border-radius: 8px;">
 
 ## License
 
