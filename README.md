@@ -29,8 +29,9 @@ pnpm add Solo Project Component Library
 ```
 
 ## Requirements
-- Reusable Components — Build each UI element as a standalone, reusable React component with clear props and predictable behavior. 
-- Match the provided Figma design file.
+- Reusable Components — Build each UI element as a standalone, reusable React component with clear props and predictable behavior.
+- Define props that align with the provided Figma design file
+- Follow the provided Figma design file.
     
 ## Components Overview
 
