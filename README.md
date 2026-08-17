@@ -1,8 +1,6 @@
 # Scrimba Solo Project - Components Library
 
-This is a solo project from Scrimba's Advanced React course, titled "Component Library." It involves developing four reusable React components, using a provided Figma design file as a reference. 
-
-Additionally, two extra components (tooltips and toasts) were completed as stretch goals.
+This solo project from Scrimba’s Advanced React course is an original, from‑scratch implementation of a reusable React component library. It follows the provided Figma design file and project requirements, including four core components plus two stretch‑goal additions (tooltips and toasts) to expand the library’s functionality.
 
 
 ## Tech Stack
@@ -17,6 +15,7 @@ Additionally, two extra components (tooltips and toasts) were completed as stret
 
 - "react": "^19.2.7",
 - "react-dom": "^19.2.7"
+  
 ## Installation
 
 Install with package manager of choice.
@@ -28,6 +27,10 @@ yarn add Solo Project Component Library
 # or
 pnpm add Solo Project Component Library
 ```
+
+## Requirements
+- Reusable Components — Build each UI element as a standalone, reusable React component with clear props and predictable behavior. 
+- Match the provided Figma design file.
     
 ## Components Overview
 
@@ -341,5 +344,5 @@ See the [License](./License) file for details.
 
 ## Acknowledgements/References
 
- - [React Component Library Info Page - Scrimba](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [React Component Library Info Page - Scrimba]([https://awesomeopensource.com/project/elangosundar/awesome-README-templates](https://different-marmoset-f7b.notion.site/React-Component-Library-deb2845f6193489098fab38c16d85903?pvs=21&session_sync_attempted=1))
  - [Figma Design File for React Component Library - Scrimba](https://www.figma.com/design/8z3MzQUTw2STq71aHbjYaF/Component-Library?node-id=399-132&p=f)
