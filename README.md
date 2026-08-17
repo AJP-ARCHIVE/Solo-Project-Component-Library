@@ -345,5 +345,5 @@ See the [License](./License) file for details.
 
 ## Acknowledgements/References
 
- - [React Component Library Info Page - Scrimba]([https://awesomeopensource.com/project/elangosundar/awesome-README-templates](https://different-marmoset-f7b.notion.site/React-Component-Library-deb2845f6193489098fab38c16d85903?pvs=21&session_sync_attempted=1))
+ - [React Component Library Info Page - Scrimba](https://awesomeopensource.com/project/elangosundar/awesome-README-templates](https://different-marmoset-f7b.notion.site/React-Component-Library-deb2845f6193489098fab38c16d85903?pvs=21&session_sync_attempted=1))
  - [Figma Design File for React Component Library - Scrimba](https://www.figma.com/design/8z3MzQUTw2STq71aHbjYaF/Component-Library?node-id=399-132&p=f)
