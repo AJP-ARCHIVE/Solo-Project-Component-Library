@@ -237,9 +237,9 @@ function App() {
   )
 }
 ```
-<img src="Component%20Library/src/assets/examples/testimonialsImage_example.PNG" alt="Testimonials with image component example" width="500" />
+<img src="/src/assets/screenshots/testimonialsImage_example.PNG" alt="Testimonials with image component example" width="500" />
 
-<img src="Component%20Library/src/assets/examples/testimonialsNoImage_example.PNG" alt="Testimonials with no image component example" width="500" />
+<img src="/src/assets/screenshots/testimonialsNoImage_example.PNG" alt="Testimonials with no image component example" width="500" />
 
 
 
@@ -288,7 +288,7 @@ function App() {
 <table>
   <tr>
     <td style="border: 3px solid #000; border-radius: 8px; padding: 4px;">
-      <img src="Component%20Library/src/assets/examples/tooltips_example.gif" alt="Tooltip component example" width="500" />
+      <img src="/src/assets/screenshots/tooltips_example.gif" alt="Tooltip component example" width="500" />
     </td>
   </tr>
 </table>
@@ -331,7 +331,7 @@ function App() {
 <table>
   <tr>
     <td style="border: 3px solid #000; border-radius: 8px; padding: 4px;">
-      <img src="Component%20Library/src/assets/examples/toasts_example.gif" alt="Toasts component example" width="500" />
+      <img src="/src/assets/screenshots/toasts_example.gif" alt="Toasts component example" width="500" />
     </td>
   </tr>
 </table>
@@ -341,8 +341,7 @@ function App() {
 ## License
 
 This project is licensed under the MIT License.  
-See the [License](./License) file for details.
-
+See the [License](./LICENSE) file for details.
 
 
 ## Acknowledgements/References
