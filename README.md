@@ -17,15 +17,16 @@ This solo project from Scrimba’s Advanced React course is an original, from‑
 - "react-dom": "^19.2.7"
   
 ## Installation
-
-Install with package manager of choice.
+Clone the repository, navigate into the project folder, and install dependencies:
 
 ```bash
-npm install Solo Project Component Library
-# or
-yarn add Solo Project Component Library
-# or
-pnpm add Solo Project Component Library
+npm install
+```
+
+## Start the development server
+
+```bash
+npm run dev
 ```
 
 ## Requirements
@@ -64,6 +65,7 @@ pnpm add Solo Project Component Library
 
 
 ### Usage/Examples - Badges
+The main.jsx file serves as a component playground. It contains all of the React components from this library, each commented out—uncomment any component to explore it in the local development server.
 
 ```javascript
 import Badge from './components/Badges/Badge'
