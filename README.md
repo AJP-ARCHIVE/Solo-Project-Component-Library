@@ -8,9 +8,9 @@ This solo project from Scrimba’s Advanced React course is an original, from‑
 - React
 - Vite (with HMR)
 - @vitejs/plugin-react 
-- ESLint (custom rules)
+- ESLint 
 - Babel
-- React Compiler enabled
+  
 ## Dependencies
 
 - "react": "^19.2.7",
