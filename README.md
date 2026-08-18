@@ -96,7 +96,7 @@ function App() {
   )
 }
 ```
-<img src="Component%20Library/src/assets/examples/badges_example.PNG" alt="Badges component example" width="500"/>
+<img src="/src/assets/screenshots/badges_example.PNG" alt="Badges component example" width="500"/>
 
 ## 2. Banners Component
 
@@ -135,7 +135,7 @@ function App() {
   )
 }
 ```
-<img src="Component%20Library/src/assets/examples/banners_example.PNG" alt="Banners component example" width="500"/>
+<img src="/src/assets/screenshots/banners_example.PNG" alt="Banners component example" width="500"/>
 
 ## 3. Cards Component
 
@@ -173,7 +173,7 @@ function App() {
 <table>
   <tr>
     <td style="border: 3px solid #000; border-radius: 8px; padding: 4px;">
-      <img src="Component%20Library/src/assets/examples/cards_example.gif" alt="Cards component example" width="500"/>
+      <img src="/src/assets/screenshots/cards_example.gif" alt="Cards component example" width="500"/>
     </td>
   </tr>
 </table>
@@ -189,7 +189,7 @@ function App() {
 - Helper component (TestimonialQuote) → receives preconfigured props and conditionally renders one of two versions (with image or without image) based on computed or passed-in prop values from the specific component version being utilized.
 
 
-<img src="Component%20Library/src/assets/examples/testimonials_design.PNG" alt="Testimonials component design" width="500"/>
+<img src="/src/assets/screenshots/testimonials_design.PNG" alt="Testimonials component design" width="500"/>
 
 
 ### Props - (Image Testimonial) TestimonialWithImage Component
