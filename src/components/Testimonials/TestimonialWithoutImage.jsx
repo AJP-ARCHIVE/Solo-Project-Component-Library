@@ -1,7 +1,5 @@
 import React from 'react'
 import TestimonialLogo from '../../assets/testimonial/logo.svg'
-// import DotPatternDesktop from '../../assets/testimonial/dotPatternDesktop.svg'
-// import DotPatternMobile from '../../assets/testimonial/dotPatternMobile.svg'
 import TestimonialQuote from './TestimonialQuote.jsx'
 import "./TestimonialStyle.css"
 
@@ -13,7 +11,6 @@ export default function TestimonialWithoutImage({ logo, logoImageAlt, quote, aut
     //Use default logo if no logo prop is not passed 
     const testimonialImage = logo ?? TestimonialLogo
 
-    //const patternImage = testimonialViewport === 'desktop' ? DotPatternDesktop : DotPatternMobile
 
     // Log a dev-only warning to inform user when expected or required props are not passed
     // And that default fallbacks were used instead 
@@ -44,7 +41,6 @@ export default function TestimonialWithoutImage({ logo, logoImageAlt, quote, aut
     return (
 
             <div className={`testimonial testimonial-without-image-container ${testimonialViewport}`}>
-                
                 <TestimonialQuote hasImage={false} testimonialMedia={testimonialImage} testimonialImageAlt={logoImageAlt} quote={quote} author={author} role={role} testimonialViewport={testimonialViewport}/>
             </div>
 
