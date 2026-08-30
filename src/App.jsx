@@ -1,9 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './components/Badges/BadgeStyle.css'
-import './App.css'
 
 
 import Badge from './components/Badges/Badge'
@@ -70,7 +66,7 @@ function App() {
     {/* <TestimonialWithoutImage quote='Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.' author='May Andersons' role='Workcation, CTO' viewport='mobile' /> */}
 
     {/* Toast component - Single popup bottom right corner of screen */}
-    {/* Test one at a time */}
+    {/* IMPORTANT: Test one at a time. Comment out single Toast to test.*/}
 
     {/* <Toast status="success" title="Success" text="Your work has been saved" />
     <Toast status="warning" text="A network error was detected" />
