@@ -212,21 +212,14 @@ body {
 
 .quote-container.without-image.desktop {
    display: flex;
-
-   
-   /* flex-direction: column; */
    align-items: center;
    gap: 2em;
    width: 100%;
    max-width: 1280px;
    max-height: 444px;
-   /* position: relative; */
-   /* margin: 0 3.75em;  */
-   /* border: 1px solid red; */
    margin: 0 auto;
    text-align: center;
    height: 300px;
-   /* border: 1px solid red; */
    width: 860px;
 }
 
@@ -289,12 +282,10 @@ body {
     gap: 2em;
     align-self: flex-end;
     padding: 2em;
-    /* border: 1px solid red; */
 }
 
 
 .testing.mobile {
-    /* border: 1px solid blue; */
     padding: 1em 0;
     display: flex;
     flex-direction: column;
@@ -321,7 +312,6 @@ body {
 }
 
 .author-container.without-image.desktop {
-    /* border: 1px solid black; */
     margin-top: -1.875em;
 }
 
@@ -329,7 +319,6 @@ body {
     position: relative;
     z-index: 2;
     display: unset;
-    /* border: 1px solid red; */
     top: 5px;
 }
 
