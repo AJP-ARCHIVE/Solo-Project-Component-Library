@@ -1,5 +1,5 @@
 import React from 'react'
-// import DefaultTooltipIcon from '../../assets/tooltip_icons/tooltipIcon.svg'
+
 
 import "./TooltipStyle.css"
 
