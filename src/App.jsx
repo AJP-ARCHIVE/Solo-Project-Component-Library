@@ -1,7 +1,5 @@
 import { useState } from 'react'
-import './components/Badges/BadgeStyle.css'
-
-
+// Imported components 
 import Badge from './components/Badges/Badge'
 import Banner from './components/Banners/Banner'
 import Card from "./components/Cards/Card"
